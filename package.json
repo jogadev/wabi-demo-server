@@ -1,0 +1,28 @@
+{
+  "name": "jogadev-wabi-demo",
+  "version": "1.0.0",
+  "description": "Sample nodeJS + React app to visualize videogame sales report",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jogadev/wabi-demo.git"
+  },
+  "author": "jogadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jogadev/wabi-demo/issues"
+  },
+  "homepage": "https://github.com/jogadev/wabi-demo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.5.8"
+  }
+}
